@@ -1,58 +1,17 @@
 Vision and Scope Document
 Problem Statement: 
-CMH would like to engage SBU students to develop an Identity and Access Management (IAM) solution that utilizes a roles-based access (RBAC) framework to improve user account management across multiple systems. This system will automate a primarily manual process and improve security by ensuring users have the right access (not too much, not too little, not inherited from their last job, on their first day, etc.). 
-Project Background:
-CMH conducts many employee transactions every year. By their own count they exceed 600 non-transfer transactions a year. Currently these processes are largely manual. This consumes work hours and delays the effectiveness of new employees since they are essentially locked out of the system until these processes are finished. This delay leaves Citizen’s Memorial paying employees for dead time and those employees being unable to do the tasks they were hired to do.
-There is also a desire for better handling of permissions. The specifically listed are insufficient permission, excessive permission, and inherited but no longer needed permissions.
-Insufficient permissions leave employees without access to data and tasks that are needed for their jobs, resulting in a problem very similar to lacking any permissions whatsoever.
-Excessive permission cause a security issue. All employees do not need equal permissions nor do higher ranking employees of the company necessarily need all access granted to employees that work under them.
-Inherited but no longer needed permissions pose an additional security risk. When someone leaves a position, whether promoted up their current organizational chart, transferred to a different team or department, or are given the opportunity to take on a larger role in a different department, they may no longer need the permissions they previously needed.
-CMH is also needing a solution that will integrate across all of their systems. This will not only aid in usability but also help in a security aspect by allowing security to be centralized on a single login system. The single system will also allow for a concentration of HR information, allowing for more direct connection between the individual systems and the HR system. 
+
  
 Stakeholders
-Sherry Montileone
-As head of IT at CMH, Sherry has a high influence with how the project will pan out. Since this is a system that is wanting to be used by the hospital, Sherry will most likely need to maintain the project after it is completed. 
-High Influence High Interest.
-Jonathan Moores
-Jonathan is under Sherry, Jonathan will be helping the project from the CMH side. He therefore has a high interest, and will be noted as high influence, even though Sherry has more influence on the project than him.
-High Influence High Interest
-Account Management Team
-The Account Management Team will be using the software the most, they will have the most hands-on experience with the finished product. 
-Low Influence High Interest.
-Human Resources
-When new hires are added and files are created for that new hire, HR will use the system to schedule their permissions to be set up. 
-Low Influence, High Interest
-Employees
-Any employee who will have their permissions edited or updated by the software. An employees interest in the software would be to be sure the solution is accurate in setting their permissions correctly. 
-Low Influence, Low Interest.
+
 
 
 Users
 
-Account Management Team
-Import HR files and update multiple applications with updated information.
-IT
-Maintenance of system, as well as having the ability to edit any permissions should something be recorded wrong.
-HR
-Adding employees to the system, scheduling for their permissions to be set.
-Risks
-Inability to fully finish the project as originally planned because of limit length of school year.
-Cancelation of project by sponsors.
-Ineffective security of the project.
-Team lack of knowledge of required tools.
-Team lack of understanding of intricacies of CMH as a business.
-Misunderstandings between Team and Sponsors.
+
 
 Assumptions
-AD will be the Active Directory system developed by Microsoft
-Permissions for access should be limited to only those who require direct and regular access
-This could mean the loss of access by employees after promotion
-HR and Account Management are different roles that will need different permissions
-The system will impact access to information protected by HIPPA and will need to achieve certain security requirements.
-Vision statement:
-     CMH processes over 600 employees annually (not including transfers) and this system will help ensure compliance, improve efficiency and improve user satisfaction. We think the project has global appeal and will provide valuable skills for the students regardless of the industry they choose.
+
                     
 Features:
-SQL database RBAC matrix. RBAC is roles-based access, which is where every employee will fit into their role and only be able to access what the system will allow them to. The database will link HR information with application access.
-AD integrated UI. AD is active directory, which is a tool that organizes users, computers and anything else under a company. The UI will allow the account management team to import HR files and kick off scripts to update access across multiple applications.
-Error and user / job code rights reports. The system will allow reports for error management and user / job code effective rights.
+
